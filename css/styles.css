@@ -1,0 +1,171 @@
+body {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+  }
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat-black", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+/* Heading */
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: #fff;
+}
+.section-header {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 1.125rem;
+}
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+/* title-image */
+.iphone {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* download button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+/* features section */
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.feature-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.feature-box {
+  padding: 5%;
+  
+}
+span {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+span:hover {
+  color: #ff4c68;
+
+}
+
+/* Testimonials  */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+ 
+}
+#testimonials h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.dog-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.testimonial-text {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+ 
+}
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+ 
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.pricing-text {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.dog-breed {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1030px) {
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+ 
+}
+
+/* call to action */
+#cta {
+  background-color: #ff4c68;
+ 
+  padding: 7% 15%;
+}
+
+
+/* footer */
+#footer {
+  padding: 5% 7%;
+  background-color: #fff;
+ 
+}
+
+#footer i {
+  padding: 1.5%;
+  
+}
